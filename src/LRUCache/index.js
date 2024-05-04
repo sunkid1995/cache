@@ -44,8 +44,6 @@ class LRUCache {
       }
     }
 
-    console.log('newCapacitynewCapacitynewCapacity:', newCapacity)
-
     this.#capacity = newCapacity;
   }
 

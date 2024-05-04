@@ -1,4 +1,4 @@
-import LRUCache from '../index';
+import LRUCache from './index';
 
 describe("Test LRU cache", () => {
   it("invalid capacity", () => {
