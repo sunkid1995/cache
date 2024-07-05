@@ -6,7 +6,7 @@ class LRUCache {
       throw "capacity invalid";
     }
 
-    this.#capacity = ~~capacity;
+    this.#capacity = Math.floor(capacity);
     this.misses = 0;
     this.hits = 0;
     this.cache = new Map();
